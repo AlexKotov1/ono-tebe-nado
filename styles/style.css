@@ -1,1 +1,45 @@
 /* место для вашего кода */
+* {
+	font-size: 18px;
+	font-family: Raleway, serif;
+	font-weight: normal;
+
+
+}
+
+.header__menu-list {
+	display: flex;
+	list-style-type: circle;
+	padding-left: 50px;
+	gap: 30px;
+	white-space: nowrap;
+}
+.no_circle {
+	list-style-type: none;
+}
+.header__menu-address {
+
+	grid-area: address;
+}
+.header {
+	height: 295px;
+
+	background-color: #ffffff;
+	display: grid;
+	grid-template-columns: 14fr 4fr 5.5fr 8.5fr;
+
+	align-items:center;
+	grid-template-areas:
+    "menu logo . address";
+
+
+
+}
+span {
+
+
+
+ }
+.header__logo-image {
+
+}
