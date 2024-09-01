@@ -1,9 +1,11 @@
 /* место для вашего кода */
 * {
 	font-size: 18px;
-	font-family: Raleway, serif;
-	font-weight: normal;
+	font-family: Raleway, sans-serif;
 
+body {
+
+}
 
 }
 
@@ -11,9 +13,9 @@
 	display: flex;
 	list-style-type: circle;
 	padding-left: 50px;
-	gap: 30px;
+	gap: 32px;
 	white-space: nowrap;
-	
+
 }
 .no_circle {
 	list-style-type: none;
@@ -23,24 +25,47 @@
 	grid-area: address;
 }
 .header {
-	height: 295px;
+	height: 293px;
 
 	background-color: #ffffff;
 	display: grid;
 	grid-template-columns: 14fr 4fr 5.5fr 8.5fr;
-
 	align-items:center;
 	grid-template-areas:
     "menu logo . address";
 
+}
+.spaising1 {
+	letter-spacing: 0.01em;
+	text-underline-offset: 3px;
+	line-height: 135%;
+	font-style: normal;
+}
+.cover {
+
+	background-position-x: -137px;
+
+	height: 757px;
+	background-size: cover;
+
+	background-image: url("../images/cover.jpg");
+
+
+	background-color: rgba(0, 0, 0, 0.6);
+
+	background-blend-mode: color;
 
 
 }
-span {
+h1 {
 
+	font-size: 100px;
+	letter-spacing: 0.2em;
+	text-underline-offset: 5px;
+	line-height: 135%;
+	font-style: normal;
+}
 
-
- }
 .header__logo-image {
-
+ width: 139px;
 }
