@@ -66,7 +66,7 @@ body {
 }
 
 .spacing,
-.aligned-text_right{
+.aligned-text_right {
 	font-size: 100px;
 	letter-spacing: 0.6em;
 }
@@ -85,7 +85,7 @@ body {
 	word-spacing: -23px;
 }
 
-.aligned-text_right{
+.aligned-text_right {
 	word-spacing: -25px;
 	padding-left: 635px;
 	letter-spacing: 31px;
@@ -140,7 +140,6 @@ body {
 	gap: 25px;
 	margin: 26px 24px;
 	list-style-type: none;
-
 }
 
 .card {
@@ -239,7 +238,7 @@ body {
 	letter-spacing: 0.007em;
 }
 
-.about__text-spicing{
+.about__text-spicing {
 	font-size: 20px;
 	letter-spacing: 0.003em;
 }
@@ -264,11 +263,6 @@ width:  1100px;
 	justify-self: center;
 }
 
-.footer__social-list {
-	align-items: end;
-	justify-self: end;
-}
-
 .footer__menu-list {
 	list-style-type:  none;
 	text-align:center;
@@ -288,7 +282,9 @@ width:  1100px;
 	text-decoration:none;
 }
 
-.footer__social-list{
+.footer__social-list {
+	align-items: end;
+	justify-self: end;
 	display: flex;
     gap: 50px;
 	width: 240px;
