@@ -36,6 +36,7 @@ a {
 img {
   width: 100%;
 }
+
 button {
   border: none;
   margin: 0;
@@ -43,7 +44,5 @@ button {
   width: auto;
   overflow: visible;
   background: transparent;
-  color: inherit;
-  font: inherit;
   line-height: normal;
 }
