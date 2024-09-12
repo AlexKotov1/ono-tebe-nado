@@ -104,6 +104,7 @@
   word-spacing: 0;
   padding: 12px 32px;
   border: 1px solid white;
+  color: white;
 }
 
 .lots {
@@ -133,7 +134,7 @@
 }
 
 .card_type {
-  min-height: 100%;
+  min-height: 563px;
   max-width: 334px;
   background: top/cover no-repeat;
 }
@@ -150,10 +151,14 @@
   background-image: url("../images/card-lot-03.jpg");
 }
 
+.card {
+  height: 100%;
+}
+
 .card-text {
   display: flex;
   flex-direction: column;
-  min-height: 562px;
+  height: inherit;
   padding: 52px 40px 48px 40px;
   color: white;
   justify-content: space-between;
